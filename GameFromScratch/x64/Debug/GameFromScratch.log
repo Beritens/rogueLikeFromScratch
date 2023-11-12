@@ -1,4 +1,26 @@
-﻿  Game.cpp
+﻿  WindowManager.cpp
   main.cpp
+D:\projects\RogueC\rogueLikeFromScratch\GameFromScratch\main.cpp(140,11): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\projects\RogueC\rogueLikeFromScratch\GameFromScratch\main.cpp(166,56): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   Generating Code...
-  GameFromScratch.vcxproj -> D:\projects\GameFromScratch\GameFromScratch\x64\Debug\GameFromScratch.exe
+WindowManager.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: void __cdecl WindowManager::Init(char const *,int,int,int,int,bool)" (?Init@WindowManager@@QEAAXPEBDHHHH_N@Z)
+WindowManager.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "public: void __cdecl WindowManager::Shutdown(void)" (?Shutdown@WindowManager@@QEAAXXZ)
+WindowManager.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: void __cdecl WindowManager::ProcessEvents(void)" (?ProcessEvents@WindowManager@@QEAAXXZ)
+WindowManager.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "public: void __cdecl WindowManager::Init(char const *,int,int,int,int,bool)" (?Init@WindowManager@@QEAAXPEBDHHHH_N@Z)
+WindowManager.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "public: void __cdecl WindowManager::Init(char const *,int,int,int,int,bool)" (?Init@WindowManager@@QEAAXPEBDHHHH_N@Z)
+WindowManager.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "public: void __cdecl WindowManager::Clear(void)" (?Clear@WindowManager@@QEAAXXZ)
+WindowManager.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "public: void __cdecl WindowManager::Update(void)" (?Update@WindowManager@@QEAAXXZ)
+WindowManager.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function "public: void __cdecl WindowManager::Shutdown(void)" (?Shutdown@WindowManager@@QEAAXXZ)
+WindowManager.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "public: void __cdecl WindowManager::Init(char const *,int,int,int,int,bool)" (?Init@WindowManager@@QEAAXPEBDHHHH_N@Z)
+WindowManager.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "public: void __cdecl WindowManager::Shutdown(void)" (?Shutdown@WindowManager@@QEAAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function SDL_main
+TextureManager.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "public: static struct SDL_Texture * __cdecl TextureManager::LoadTexture(char const *)" (?LoadTexture@TextureManager@@SAPEAUSDL_Texture@@PEBD@Z)
+TextureManager.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "public: static struct SDL_Texture * __cdecl TextureManager::LoadTexture(char const *)" (?LoadTexture@TextureManager@@SAPEAUSDL_Texture@@PEBD@Z)
+TextureManager.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function "public: static void __cdecl TextureManager::Draw(struct SDL_Texture *,struct SDL_Rect *,struct SDL_Rect *)" (?Draw@TextureManager@@SAXPEAUSDL_Texture@@PEAUSDL_Rect@@1@Z)
+TextureManager.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "public: static struct SDL_Texture * __cdecl TextureManager::LoadTexture(char const *)" (?LoadTexture@TextureManager@@SAPEAUSDL_Texture@@PEBD@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Dev\SDL2\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Dev\SDL2\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Dev\SDL2_image-2.6.3\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\projects\RogueC\rogueLikeFromScratch\x64\Debug\GameFromScratch.exe : fatal error LNK1120: 17 unresolved externals

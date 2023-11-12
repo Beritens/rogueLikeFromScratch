@@ -1,2 +1,5 @@
-﻿  Map.cpp
-  GameFromScratch.vcxproj -> D:\projects\GameFromScratch\GameFromScratch\Debug\GameFromScratch.exe
+﻿  main.cpp
+D:\projects\RogueC\rogueLikeFromScratch\GameFromScratch\main.cpp(242,35): warning C4244: '=': conversion from 'float' to 'uint8_t', possible loss of data
+D:\projects\RogueC\rogueLikeFromScratch\GameFromScratch\main.cpp(361,27): warning C4018: '<': signed/unsigned mismatch
+D:\projects\RogueC\rogueLikeFromScratch\GameFromScratch\main.cpp(362,31): warning C4018: '<': signed/unsigned mismatch
+  GameFromScratch.vcxproj -> D:\projects\RogueC\rogueLikeFromScratch\Debug\GameFromScratch.exe
